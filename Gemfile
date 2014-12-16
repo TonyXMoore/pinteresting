@@ -41,6 +41,8 @@ gem 'paperclip', github: 'thoughtbot/paperclip'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'aws-sdk', '~> 1.20.0'
+
 group :development, :test do 
 		gem 'sqlite3'	
 end
