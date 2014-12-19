@@ -6,7 +6,7 @@
 
       <div class="panel-body">
         <%= pin.description %> <BR>
-        <b><%= pin.user.email if pin.user %></b>
+        <b><%= pin.user.name if pin.user %></b>
 
         <% if pin.user == current_user %>
         <div class="actions">
