@@ -17,4 +17,3 @@
 //= require turbolinks
 //= require masonry/jquery.masonry
 //= require_tree .
-*= require font-awesome
