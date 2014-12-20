@@ -16,12 +16,12 @@
     <ul class="nav navbar-nav navbar-right">
       <li>
         <%= link_to root_path do%>
-        <span class="glyphicon glyphicon glyphicon-home"></span> Home
+        <i class="fa fa-home"></i>Home
         <% end %>
       </li>
       <li>
         <%= link_to about_path do %>
-        <span class="glyphicon glyphicon glyphicon-question-sign"></span> About Us
+        <span class="glyphicon glyphicon-question-sign"></span> About Us
         <% end %>
       </li>
     
@@ -41,14 +41,14 @@
      
       <li>
         <%= link_to destroy_user_session_path, method: :delete do %>
-        <span class="glyphicon glyphicon-eject"></span> Log Off
+             <i class="fa fa-sign-out"></i> Sign Out
         <% end %>
       </li>
 
     <% else %>
     <li>
       <%= link_to new_user_session_path do %>
-        <span class="glyphicon glyphicon-play"></span> Sign In
+        <i class="fa fa-sign-in"></i> Sign In
       <% end %>
     </li>
     <% end %>
